@@ -1,0 +1,40 @@
+/* reset */
+$base-bg: #fff;
+$base-font-size: 62.5%; 
+$base-line-height: 1; 
+$custom-font-family: 'DINPro', sans-serif;
+$base-font-family: 'Segoe UI', sans-serif;
+$link-color: #100da9;
+$default-transition:all 0.2s linear;
+
+/* main variables */
+
+//text, titles
+$text-color: #fff;
+$text-color2: #717274;
+$text-color3: #4a2f2f;
+$text-color4: #f6303e;
+$text-color5: #8da5ba;
+$text-color6: #212121;
+$text-color7: #d60202;
+$text-color8: #dc2f2f;
+$text-color9: #ca1919;
+$text-color10: #3f5b69;
+$title-color: #202945;
+$title-color2: #f6303e;
+$title-font-family: $custom-font-family;
+
+$font-size-h1: 9rem;
+$line-height-h1: 90px;
+$font-size-h2: 8rem;
+$line-height-h2: 80px;
+$font-size-h3: 5rem;
+$line-height-h3: 50px;
+
+$bg-color: #191919;
+$bg-color2: #fff;
+$bg-color3: #212121;
+$bg-color4: #d60202;
+$bg-color5: #f6303e;
+$bg-color6: #b0bec1;
+$bg-color7: rgba(176, 190, 193, .3);

@@ -1,0 +1,24 @@
+@mixin transition($default-transition) {
+  -webkit-transition: $default-transition;
+     -moz-transition: $default-transition;
+      -ms-transition: $default-transition;
+		-o-transition: $default-transition;
+           transition: $default-transition;
+}
+
+
+
+@mixin gradient($aside,$color1,$color2) {
+    background: -moz-linear-gradient($aside, $color1, $color2);
+	background: -webkit-linear-gradient($aside, $color1, $color2);
+	background: -o-linear-gradient($aside, $color1, $color2);
+	background: -ms-linear-gradient($aside, $color1, $color2);
+	background: linear-gradient(to $aside, $color1, $color2);
+}
+
+
+@mixin font($font-s, $font-h, $font-c) {
+    font-size: $font-s;
+    line-height: $font-h;
+    color:$font-c;
+}

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="preloader">
+    <div class="loader"></div>
+</div>
+
+<div class="wrapper">
+    <div class="main">
+        <div class="overlay"></div>
+        <!--===========================  HEADER ============================================-->
+        <header class="header">
+            <div class="logo logo-lg"><a href="#"><img src="img/logo.png" alt="logo"></a></div>
+            <div class="logo logo-sm"><a href="#"><img src="img/logo-s.png" alt="logo"></a></div>
+            <div class="icon">
+                <div class="hamburger"></div>
+            </div>
+            <div class="menu visible-lg">
+                <div class="top-menu">
+                    <form >
+                        <input type="search" class="search">
+                    </form>
+                    <ul class="login">
+                        <li class="phone"><a href="tel:+38(063)154-35-56" class="login-link">+38 063 154 35 56</a>
+                        </li>
+                        <li class="account"><a href="#" class="login-link">Мій кабінет</a></li>
+                    </ul>
+                    <ul class="lang">
+                        <li><a href="#" class="lang-link">ua</a></li>
+                        <li><a href="#" class="lang-link">en</a></li>
+                    </ul>
+                </div>
+                <div class="main-menu ">
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="#" class="menu-link">продукція</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="menu-link">Продукт 1</a></li>
+                                <li><a href="#" class="menu-link">Продукт 2</a></li>
+                                <li><a href="#" class="menu-link">Продукт 3</a></li>
+                            </ul>
+                            <img src="img/left-arrow.png" alt="arrow">
+                        </li>
+                        <li class="menu-item"><a href="#" class="menu-link">готові рішення</a><img
+                                src="img/left-arrow.png" alt="arrow"></li>
+                        <li class="menu-item"><a href="#" class="menu-link">підтримка</a><img src="img/left-arrow.png"
+                                                                                              alt="arrow"></li>
+                        <li class="menu-item"><a href="#" class="menu-link">система</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="menu-link">можливості</a></li>
+                                <li><a href="#" class="menu-link">новини</a></li>
+                                <li><a href="#" class="menu-link">сертифікати</a></li>
+                                <li><a href="#" class="menu-link">реалізовані проекти</a></li>
+                            </ul>
+                            <img src="img/left-arrow.png" alt="arrow"></li>
+                        <li class="menu-item"><a href="#" class="menu-link">контакти</a><img src="img/left-arrow.png"
+                                                                                             alt="arrow"></li>
+                    </ul>
+                    <div class="cart">
+                        <div class="cart-btn">0 шт</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-menu hide-lg">
+                <form>
+                    <input type="search" class="search">
+                </form>
+                <div class="cart">
+                    <div class="cart-btn">0 шт</div>
+                </div>
+            </div>
+
+            <div class="menu-small">
+                <div class="main-menu-smal ">
+                    <ul class="menu-list-small">
+                        <li class="menu-item"><a href="#" class="menu-link">продукція</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="menu-link">Продукт 1</a></li>
+                                <li><a href="#" class="menu-link">Продукт 2</a></li>
+                                <li><a href="#" class="menu-link">Продукт 3</a></li>
+                            </ul>
+                            <img src="img/left-arrow.png" alt="arrow">
+                        </li>
+                        <li class="menu-item"><a href="#" class="menu-link">готові рішення</a><img
+                                src="img/left-arrow.png" alt="arrow"></li>
+                        <li class="menu-item"><a href="#" class="menu-link">підтримка</a><img src="img/left-arrow.png"
+                                                                                              alt="arrow"></li>
+                        <li class="menu-item"><a href="#" class="menu-link">система</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="menu-link">можливості</a></li>
+                                <li><a href="#" class="menu-link">новини</a></li>
+                                <li><a href="#" class="menu-link">сертифікати</a></li>
+                                <li><a href="#" class="menu-link">реалізовані проекти</a></li>
+                            </ul>
+                            <img src="img/left-arrow.png" alt="arrow">
+                        </li>
+                        <li class="menu-item"><a href="#" class="menu-link">контакти</a><img src="img/left-arrow.png"
+                                                                                             alt="arrow"></li>
+                        <li class="menu-item-last">
+                            <ul class="login">
+                                <li class="account"><a href="#" class="login-link">Мій кабінет</a></li>
+                            </ul>
+                            <ul class="lang">
+                                <li><a href="#" class="lang-link">ua</a></li>
+                                <li><a href="#" class="lang-link">en</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </header>
+        <!--===========================  end HEADER ========================================-->
+        <!--===========================  Content ===========================================-->
+        <div class="sliders">
+            <div class="sl">
+                <div class="sl__slider">
+                    <a href="#" class="slide-link">
+                        <div class="slide-txt">
+                            <h3 class="sl__title">ajax StreetSiren </h3>
+                            <p>Працює на відстані до 2000 метрів від Ajax Hub на відкритому просторі або на декількох
+                                поверхах бізнес-центру</p>
+                            <button class="button">Детальніше</button>
+                        </div>
+                        <div class="slide-img">
+                            <img src="img/ajax.png" alt="img 1" class="sl__img">
+                        </div>
+                    </a>
+                </div>
+                <div class="sl__slider">
+                    <a href="#" class="slide-link">
+                        <div class="slide-txt">
+                            <h3 class="sl__title">ajax StreetSiren </h3>
+                            <p>Працює на відстані до 2000 метрів від Ajax Hub на відкритому просторі або на декількох
+                                поверхах бізнес-центру</p>
+                            <button class="button">Детальніше</button>
+                        </div>
+                        <div class="slide-img">
+                            <img src="img/ajax.png" alt="img 1" class="sl__img">
+                        </div>
+                    </a>
+                </div>
+                <div class="sl__slider">
+                    <a href="#" class="slide-link">
+                        <div class="slide-txt">
+                            <h3 class="sl__title">ajax StreetSiren </h3>
+                            <p>Працює на відстані до 2000 метрів від Ajax Hub на відкритому просторі або на декількох
+                                поверхах бізнес-центру</p>
+                            <button class="button">Детальніше</button>
+                        </div>
+                        <div class="slide-img">
+                            <img src="img/ajax.png" alt="img 1" class="sl__img">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="sl-sm">
+                <div class="sl__slider">
+                    <a href="#" class="slide-link">
+                        <div class="slide-txt">
+                            <h3 class="sl__title">ajax StreetSiren </h3>
+                            <p>Працює на відстані до 2000 метрів від Ajax Hub на відкритому просторі або на декількох
+                                поверхах бізнес-центру</p>
+                            <div class="slide-img">
+                                <img src="img/sl-img.png" alt="img 1" class="sl__img">
+                            </div>
+                            <button class="button">Детальніше</button>
+                        </div>
+                    </a>
+                </div>
+                <div class="sl__slider">
+                    <a href="#" class="slide-link">
+                        <div class="slide-txt">
+                            <h3 class="sl__title">ajax StreetSiren </h3>
+                            <p>Працює на відстані до 2000 метрів від Ajax Hub на відкритому просторі або на декількох
+                                поверхах бізнес-центру</p>
+                            <div class="slide-img">
+                                <img src="img/sl-img.png" alt="img 1" class="sl__img">
+                            </div>
+                            <button class="button">Детальніше</button>
+                        </div>
+                    </a>
+                </div>
+                <div class="sl__slider">
+                    <a href="#" class="slide-link">
+                        <div class="slide-txt">
+                            <h3 class="sl__title">ajax StreetSiren </h3>
+                            <p>Працює на відстані до 2000 метрів від Ajax Hub на відкритому просторі або на декількох
+                                поверхах бізнес-центру</p>
+                            <div class="slide-img">
+                                <img src="img/sl-img.png" alt="img 1" class="sl__img">
+                            </div>
+                            <button class="button">Детальніше</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--===========================  end Content ======================================-->
+    </div>
+    <!--===========================  Products =============================================-->
+    <section class="products">
+        <div class="container">
+            <div class="product-title">
+                <h2 class="title">товари</h2>
+                <div class="all"><a href="#" class="all-link">показати усі</a></div>
+            </div>
+            <div class="products-content">
+                <ul class="product-list">
+                    <li class="product-item">
+                        <div class="product-link">
+                            <div class="product-img wow pulse" data-wow-offset="200" data-wow-duration="3s"><img
+                                    src="img/Biostation.png" alt="Biostation">
+                                <div class="description-overlay">
+                                    <div class="description">
+                                        <button class="button-catr"><img src="img/shop.png" alt="shop"><span
+                                                class="add-cart">в кошик</span></button>
+                                        <button class="button-descr"><img src="img/info.png" alt="shop"><span
+                                                class="info">детальніше</span>
+                                        </button>
+                                        <span class="price">5399 грн.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="product-title">Suprema Biostation L2</span>
+                            <p>BioStation A2 нашпигований найкращим у світі процесором на 4 ядра, що забеспечує
+                                найкращий у
+                                світі </p>
+                        </div>
+                    </li>
+                    <li class="product-item">
+                        <div class="product-link">
+                            <div class="product-img wow pulse" data-wow-offset="200" data-wow-duration="3s"><img
+                                    src="img/BioEntry-.png" alt="BioEntry">
+                                <div class="description-overlay">
+                                    <div class="description">
+                                        <button class="button-catr"><img src="img/shop.png" alt="shop"><span
+                                                class="add-cart">в кошик</span></button>
+                                        <button class="button-descr"><img src="img/info.png" alt="shop"><span
+                                                class="info">детальніше</span>
+                                        </button>
+                                        <span class="price-action">5399 грн.</span>
+                                        <span class="price">4299 грн.</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="action">акція</div>
+                            <span class="product-title">Suprema BioEntry Plus</span>
+                            <p>BioStation A2 нашпигований найкращим у світі процесором на 4 ядра, що забеспечує
+                                найкращий у
+                                світі </p>
+                        </div>
+                    </li>
+                    <li class="product-item">
+                        <div class="product-link">
+                            <div class="product-img wow pulse" data-wow-offset="200" data-wow-duration="3s"><img
+                                    src="img/Facestation.png" alt="Facestation">
+                                <div class="description-overlay">
+                                    <div class="description">
+                                        <button class="button-catr"><img src="img/shop.png" alt="shop"><span
+                                                class="add-cart">в кошик</span></button>
+                                        <button class="button-descr"><img src="img/info.png" alt="shop"><span
+                                                class="info">детальніше</span>
+                                        </button>
+                                        <span class="price-action">5399 грн.</span>
+                                        <span class="price">4299 грн.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="action">акція</div>
+                            <span class="product-title">Suprema Facestation 2</span>
+                            <p>BioStation A2 нашпигований найкращим у світі процесором на 4 ядра, що забеспечує
+                                найкращий у
+                                світі </p>
+                        </div>
+                    </li>
+                    <li class="product-item">
+                        <div class="product-link">
+                            <div class="product-img wow pulse" data-wow-offset="200" data-wow-duration="3s"><img
+                                    src="img/Xpass.png" alt="Xpass">
+                                <div class="description-overlay">
+                                    <div class="description">
+                                        <button class="button-catr"><img src="img/shop.png" alt="shop"><span
+                                                class="add-cart">в кошик</span></button>
+                                        <button class="button-descr"><img src="img/info.png" alt="shop"><span
+                                                class="info">детальніше</span>
+                                        </button>
+                                        <span class="price">5399 грн.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="product-title">Suprema Xpass S2</span>
+                            <p>BioStation A2 нашпигований найкращим у світі процесором на 4 ядра, що забеспечує
+                                найкращий у
+                                світі </p>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </section>
+    <!--===========================  end Products =========================================-->
+    <!--===========================  Registration =============================================-->
+    <section class="registration">
+        <div class="container container-bg">
+            <div class="registration-title">
+                <h2 class="reg-title">Форма реєстрації</h2>
+            </div>
+            <div class="form">
+                <form action="">
+                    <div class="group-input">
+                        <div class="group-1">
+                            <input type="text" placeholder="Ім'я" required>
+                            <input id="phone" type="text" placeholder="Телефон" required>
+                            <select class="classic">
+                                <option selected="selected">Вид діяльності</option>
+                                <option>Виробництво харчових продуктів</option>
+                                <option>Текстильне виробництво</option>
+                                <option>Виробництво одягу</option>
+                                <option>Металургійне виробництво</option>
+                            </select>
+                        </div>
+                        <div class="group-2">
+                            <input type="email" placeholder="E-mail" required/>
+                            <input type="text" placeholder="Організація" required/>
+                            <input type="text" id="datepicker" class="my-data" placeholder="Дата">
+                        </div>
+                    </div>
+                    <div class="form-txt">
+                        <textarea name="text" id="area" placeholder="Повідомлення"></textarea>
+                    </div>
+                    <div class="button-submit">
+                        <input type="submit" value="Надіслати" class="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--===========================  end Registration =========================================-->
+    <div class="empty"></div>
+</div>
+<!--===========================    Footer    ===========================================-->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class='scrolltop'>
+                <div class='scroll'><i class="fa fa-4x fa-angle-up"></i></div>
+            </div>
+            <div class="copy">© 2017 Barracuda. All rights reserved</div>
+            <div class="otakoyi">Зроблено силами <a href="#" class="footer-link"><span>Otakoyi</span><img
+                    src="img/ot.png" alt=""></a></div>
+        </div>
+    </div>
+</footer>
+<!--===========================  end  Footer    ================================================-->
+
+<!-- BODY EOF   -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+<script src="js/components/slick.js"></script>
+<script src="js/components/wow.js"></script>
+<script src="js/components/jquery.maskedinput.min.js"></script>
+<script src="js/custom.js"></script>
+<script>
+    new WOW().init();
+</script>
+</body>
+
+</html>
